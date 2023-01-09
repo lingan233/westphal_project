@@ -1,0 +1,45 @@
+{
+	"majors": {
+		"UXID": {
+			"name": "",
+			"tag": "",
+			"cover_img": "",
+			"qr_code": "",
+
+			"fundamental": [
+				{
+					"name": "UI Design",
+					"img": "",
+					"text": ""
+				},
+				{
+					"name": "UI Design",
+					"img": "",
+					"text": ""
+				},
+				{
+					"name": "UI Design",
+					"img": "",
+					"text": ""
+				}
+			],
+
+			"coop": {
+				"stat_1": { "name": "", "stat": "" },
+				"stat_2": { "name": "", "stat": "" },
+				"companies": [],
+				"description": ""
+			},
+
+			"career": {
+				"stat_1": { "stat": "", "description": "" },
+				"stat_2": { "stat": "", "description": "" },
+				"job_title": [],
+				"description": ""
+			},
+
+			"additional": "",
+			"alumni": [{ "name": "", "job_title": "", "company": "", "class": 2022 }]
+		}
+	}
+}
