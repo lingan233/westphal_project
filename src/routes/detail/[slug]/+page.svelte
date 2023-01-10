@@ -1,13 +1,9 @@
-import { error } from '@sveltejs/kit';
- 
-/** @type {import('./$types').PageLoad} */
-export function load = () => {
-  if (params.slug === 'UXID') {
-    return {
-      title: 'Hello world!',
-      content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
-    };
-  }
- 
-  throw error(404, 'Not found');
-}
+<script>
+	export let slug;
+	export let user;
+</script>
+
+<div>
+	<h1>{slug}</h1>
+	<h1>{JSON.stringify(user)}</h1>
+</div>
