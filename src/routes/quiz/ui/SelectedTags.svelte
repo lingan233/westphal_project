@@ -1,18 +1,14 @@
+
 <script>
 	export let selected_tags;
-	import cross from '../images/cross.svg';
+	import PillCloseable from "../../../lib/components/PillCloseable.svelte";
 </script>
 
 <div class="mt-4 mb-2 relative h-28 border-blue-600 border-2 rounded-3xl">
 	<h2 class="absolute top-0 left-4 -translate-y-1/2 bg-white p-1 px-2">Interests Picked</h2>
 	<div class="flex gap-2 align-top px-4 py-2 pt-4">
 		{#each selected_tags as tag}
-			<button
-				class="tags border-blue-600 border rounded-full py-1 px-1 leading-4 h-fit flex justify-center items-center gap-1"
-			>
-				<p class="pl-1">{tag}</p>
-				<img src={cross} alt="" />
-			</button>
+			<PillCloseable {tag}></PillCloseable>
 		{/each}
 	</div>
 </div>
