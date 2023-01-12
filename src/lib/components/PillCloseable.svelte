@@ -1,11 +1,9 @@
 <script>
 export let tag;
-import cross from '../icon/cross.svg';
+import cross from '$lib/icon/cross.svg';
 </script>
 
-<button
-				class="tags border-blue-600 border rounded-full py-1 px-1 leading-4 h-fit flex justify-center items-center gap-1"
-			>
-				<p class="pl-1">{tag}</p>
+<button class="tags border-drexel-light-blue border rounded-full py-0.5 px-0.5 leading-4 h-fit flex justify-center items-center gap-1">
+				<p class="pl-1 text-drexel-dark-blue">{tag}</p>
 				<img src={cross} alt="" />
 </button>
