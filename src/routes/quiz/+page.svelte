@@ -11,7 +11,7 @@
 
 	let selected_tags = ['Storytelling', 'History of Art'];
 
-	import finger_click from '$lib/images/cross.svg';
+	import SelectedTags from '../../lib/components/SelectedTags.svelte';
 </script>
 
 <main class="p-5">
@@ -23,7 +23,7 @@
 		<button>Next</button>
 	</div>
 
-
+	<SelectedTags {selected_tags} />
 
 	<div>
 		{#each tags as tag}
