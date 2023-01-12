@@ -1,23 +1,31 @@
 <script>
-	let tags = [
-	"3D Animation", "3D Modeling", "Visual Effects", "Engineering", "Architecture", "Prototyping", "Research", "Creative Writing", "History of Art", "Arts & Culture", "Education", "Dance", "Physical Theraphy", "Performing Arts", "Education", "Merchandising", "Fashion", "Retail", "Branding", "Business", "Entrepreneurship", "Motion Capture", "Virtual Reality", "Augmented Reality", "Business", "Arts & Culture", "Performing Arts", "Entrepreneurship", "Theater", "Fashion Design", "Textiles", "Garment Construction", "Fashion Technology", "Storytelling", "Video Editing", "Filmmaking", "Television Production", "Documentary", "Game Design", "Game Development", "Computer Science", "Branding", "Advertising", "Web Design", "Visual Communication", "Graphic Art", "Space Planning", "Decorating", "Prototyping", "Music Production", "Audio Production", "Performing Arts", "Entrepreneurship", "Business", "Music Theory", "Photography", "Photojournalism", "Advertising", "Documentary", "Research", "Prototyping", "Design Thinking", "Entrepreneurship", "Industrial Design", "Creative Writing", "Storytelling", "Filmmaking", "Theater", "Research", "Web Development", "Web Design", "User-Centric Design"
-	];
+	import SelectedTags from './ui/SelectedTags.svelte';
+	import Header from './ui/Header.svelte';
+	import { generate_random_tags } from '$lib/functions/GenerateRandomTags';
+	import { get_all_tags } from '$lib/functions/GetAllTags';
+	import TagGeneration from './ui/TagGeneration.svelte';
+	import RerollButton from '$lib/components/RerollButton.svelte';
 
-	let selected_tags = ['Storytelling', 'History of Art'];
+	let tags = get_all_tags();
+	let selected_tags = [];
+	let displaying_tags;
+	let remaining_tags = tags;
 
-	import SelectedTags from "./ui/SelectedTags.svelte";
-	import Header from "./ui/Header.svelte";
+	displaying_tags = generate_random_tags(tags, 20);
+	console.log(displaying_tags);
+
+	function onReroll() {
+		displaying_tags = generate_random_tags(tags, 20);
+		console.log(displaying_tags);
+	}
 </script>
 
-<main class="h-screen w-screen p-5 flex flex-col justify-evenly">
-	<Header/>
+<main class="flex h-screen w-screen flex-col justify-evenly p-5">
+	<Header />
+
 	<SelectedTags {selected_tags} />
 
-	<div class="flex flex-wrap justify-center items-center">
-		{#each tags.slice(0,20) as tag}
-			<button class="tags border-drexel-light-blue border rounded-full py-1 px-3 m-1">{tag}</button>
-		{/each}
-	</div>
-	<a href="/result" class="bg-gray-200 float-right rounded-full py-1 px-3 m-1">View Result</a>
-</main>
+	<TagGeneration tags={displaying_tags} />
 
+	<RerollButton on:onReroll={onReroll} />
+</main>
