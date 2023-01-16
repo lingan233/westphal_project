@@ -1,10 +1,19 @@
 <script>
 	import Pill from '$lib/components/Pill.svelte';
+	import { createEventDispatcher } from 'svelte';
+	const dispatch = createEventDispatcher();
+
 	export let tags;
+
+	$: tags = tags;
+
+	function onTagSelect(event) {
+		dispatch('onTagSelectBubble', event.detail);
+	}
 </script>
 
-<div class="flex flex-wrap items-center justify-center h-1/2">
+<div class="flex min-h-max flex-wrap items-start justify-center gap-2">
 	{#each tags as tag}
-		<Pill>{tag}</Pill>
+		<Pill on:onTagSelect={onTagSelect} {tag} />
 	{/each}
 </div>

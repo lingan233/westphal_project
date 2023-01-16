@@ -7,5 +7,8 @@
 		<h1 class="pb-2 text-2xl font-bold">Pick Your Interests</h1>
 		<p class="text-base font-light">Choose as many tags as you like!</p>
 	</div>
-	<ButtonNext />
+	<div class='absolute right-0'>
+		<ButtonNext />
+	</div>
+
 </div>
