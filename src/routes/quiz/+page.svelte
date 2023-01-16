@@ -33,9 +33,9 @@
 	<TagGeneration on:onTagSelectBubble={onTagSelect} tags={displaying_tags} />
 
 	<RerollButton on:onReroll={onReroll} />
-	<button
+	<!-- <button
 		on:click={() => {
 			$selected_tags = [...$selected_tags, 'test'];
 		}}>Test</button
-	>
+	> -->
 </main>
