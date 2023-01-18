@@ -25,7 +25,7 @@
 	}
 </script>
 
-<main class="flex h-screen w-screen flex-col justify-evenly p-5">
+<main class="grid h-screen grid-rows-[10vh_8rem_1fr_3rem] gap-8 p-5 py-16">
 	<Header />
 
 	<SelectedTags selected_tags={$selected_tags} />

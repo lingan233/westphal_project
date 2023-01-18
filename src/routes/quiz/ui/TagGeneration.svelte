@@ -12,7 +12,7 @@
 	}
 </script>
 
-<div class="flex min-h-max flex-wrap items-start justify-center gap-2">
+<div class="flex flex-wrap items-start justify-center gap-2">
 	{#each tags as tag}
 		<Pill on:onTagSelect={onTagSelect} {tag} />
 	{/each}
