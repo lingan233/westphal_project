@@ -1,0 +1,58 @@
+{
+	"majors": {
+		"UXID": {
+			"name": "User Experience and Interaction Design (BS)",
+			"description": "",
+			"tag": "",
+			"cover_img": "",
+			"qr_code": "",
+
+			"fundamental": [
+				{
+					"name": "UI Design",
+					"img": "",
+					"text": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+				},
+				{
+					"name": "Web Development",
+					"img": "",
+					"text": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+				},
+				{
+					"name": "UX Design",
+					"img": "",
+					"text": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+				}
+			],
+
+			"coop": {
+				"stat_1": { "name": "Employment Rate", "stat": "90%" },
+				"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+				"companies": ["Microsoft", "Vanguard", "Septa", "Google", "Oracle"],
+				"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+			},
+
+			"career": {
+				"stat_1": {
+					"stat": "99%",
+					"description": "Employed at a full-time job within one year of graduation"
+				},
+				"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
+				"job_title": [
+					"UI Designer",
+					"UX Designer",
+					"Web Developer",
+					"IX Designer",
+					"User Researcher"
+				],
+				"description": ""
+			},
+
+			"additional": "",
+
+			"alumni": [
+				{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
+			]
+		}
+	}
+}
