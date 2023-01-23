@@ -1,7 +1,15 @@
 <script>
 	export let selected_tags;
 	import PillCloseable from '$lib/components/PillCloseable.svelte';
-	console.log(selected_tags);
+	import { createEventDispatcher } from 'svelte';
+	const dispatch = createEventDispatcher();
+
+	function onTagClose(event) {
+		dispatch('onTagClose', event.detail);
+
+	}
+
+	$: tags = selected_tags;
 </script>
 
 <div class="relative h-32 rounded-3xl border-2 border-drexel-light-blue">
@@ -9,8 +17,8 @@
 		Interests Picked
 	</h2>
 	<div class="flex max-h-full flex-wrap gap-2 overflow-scroll px-4 py-2 pt-4 align-top">
-		{#each selected_tags as tag}
-			<PillCloseable {tag} />
+		{#each tags as tag}
+			<PillCloseable on:onTagClose={onTagClose} {tag} />
 		{/each}
 	</div>
 </div>

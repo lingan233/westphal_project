@@ -2,16 +2,17 @@
 	import cross from '$lib/icon/cross.svg';
 	import { createEventDispatcher } from 'svelte';
 
+	const dispatch = createEventDispatcher();
+
 	export let tag;
 
-	let dispatch = createEventDispatcher;
-
-	function onClick(){
-		dispatch("onTagClosed", tag)
+	function onTagClose() {
+		dispatch('onTagClose', tag);
 	}
 </script>
 
-<button on:click={onClick}
+<button
+	on:click={onTagClose}
 	class="tags flex h-fit items-center justify-center gap-1 rounded-full border border-drexel-light-blue py-0.5 px-0.5 leading-4"
 >
 	<p class="pl-1 text-drexel-dark-blue">{tag}</p>

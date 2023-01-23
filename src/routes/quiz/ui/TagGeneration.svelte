@@ -6,7 +6,7 @@
 	export let tags;
 
 	$: tags = tags;
-
+	
 	function onTagSelect(event) {
 		dispatch('onTagSelectBubble', event.detail);
 	}

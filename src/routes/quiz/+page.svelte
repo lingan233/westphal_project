@@ -19,8 +19,16 @@
 	}
 
 	function onTagSelect(event) {
-		if (tags.includes(event.detail)) {
+		if (tags.includes(event.detail) && !$selected_tags.includes(event.detail)) {
 			$selected_tags = [...$selected_tags, event.detail];
+			displaying_tags = displaying_tags.filter((tag) => tag != event.detail);
+			displaying_tags = [...displaying_tags, ]
+		}
+	}
+
+	function onTagClose(event) {
+		if (tags.includes(event.detail) && $selected_tags.includes(event.detail)) {
+			$selected_tags = $selected_tags.filter((tag) => tag != event.detail);
 		}
 	}
 </script>
@@ -28,7 +36,7 @@
 <main class="grid h-screen grid-rows-[10vh_8rem_1fr_3rem] gap-8 p-5 py-16">
 	<Header />
 
-	<SelectedTags selected_tags={$selected_tags} />
+	<SelectedTags on:onTagClose={onTagClose} selected_tags={$selected_tags} />
 
 	<TagGeneration on:onTagSelectBubble={onTagSelect} tags={displaying_tags} />
 

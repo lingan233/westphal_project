@@ -10,5 +10,4 @@
 	<div class='absolute right-0'>
 		<ButtonNext />
 	</div>
-
 </div>
