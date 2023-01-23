@@ -1,5 +1,5 @@
 <script>
-	import BackArrow from "../../../lib/icon/BackArrow.svelte";
+	import BackButton from "../../../lib/components/BackButton.svelte";
 	import MajorOverview from "../../../lib/components/MajorOverview.svelte";
 	import SwipeDown from "../../../lib/components/SwipeDown.svelte";
 </script>
@@ -13,7 +13,7 @@
 		src="/images/logo.png"
 	/>
 	<div class="relative top-[10%]">
-		<BackArrow />
+		<BackButton />
 	</div>
 	<div class="absolute bottom-[20%] w-[90%] bg-drexel-dark-blue p-8">
 		<MajorOverview
