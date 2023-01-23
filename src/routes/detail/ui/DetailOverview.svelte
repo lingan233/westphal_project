@@ -1,7 +1,7 @@
 <script>
-	import BackButton from '../components/BackButton.svelte';
-	import MajorOverview from '../components/MajorOverview.svelte';
-	import SwipeDown from '../components/SwipeDown.svelte';
+	import BackArrow from "../../../lib/icon/BackArrow.svelte";
+	import MajorOverview from "../../../lib/components/MajorOverview.svelte";
+	import SwipeDown from "../../../lib/components/SwipeDown.svelte";
 </script>
 
 <div
@@ -13,11 +13,11 @@
 		src="/images/logo.png"
 	/>
 	<div class="relative top-[10%]">
-		<BackButton />
+		<BackArrow />
 	</div>
 	<div class="absolute bottom-[20%] w-[90%] bg-drexel-dark-blue p-8">
 		<MajorOverview
-			major_title="User Experience and Interaction Design (BS)"
+			major_name="User Experience and Interaction Design (BS)"
 			major_description="The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it."
 		/>
 	</div>

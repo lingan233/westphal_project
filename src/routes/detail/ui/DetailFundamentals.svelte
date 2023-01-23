@@ -1,5 +1,5 @@
 <script>
-	import DetailSectionTitle from '../components/DetailSectionTitle.svelte';
+	import DetailSectionTitle from "../../../lib/components/DetailSectionTitle.svelte";
 </script>
 
 <DetailSectionTitle section_title="Fundamentals" title_position="left" />

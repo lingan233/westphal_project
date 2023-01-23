@@ -1,8 +1,8 @@
 <script>
-	import DetailSectionTitle from '../components/DetailSectionTitle.svelte';
-	import CoopCompanies from '../components/CoopCompanies.svelte';
-	import CoopStat from '../components/CoopStat.svelte';
-	import CoopDescription from '../components/CoopDescription.svelte';
+	import DetailSectionTitle from "../../../lib/components/DetailSectionTitle.svelte";
+	import CoopCompanies from "../../../lib/components/CoopCompanies.svelte";
+	import CoopStat from "../../../lib/components/CoopStat.svelte";
+	import CoopDescription from "../../../lib/components/CoopDescription.svelte";
 </script>
 
 <DetailSectionTitle section_title="Coop" title_position="right" />

@@ -1,8 +1,10 @@
 <script>
-	import DetailOverview from '../../lib/ui/DetailOverview.svelte';
-	import DetailFundamentals from '../../lib/ui/DetailFundamentals.svelte';
-	import DetailCoop from '../../lib/ui/DetailCoop.svelte';
-	import DetailCareers from '../../lib/ui/DetailCareers.svelte';
+	import DetailOverview from "./ui/DetailOverview.svelte";
+	import DetailFundamentals from "./ui/DetailFundamentals.svelte";
+	import DetailCoop from "./ui/DetailCoop.svelte";
+	import DetailCareers from "./ui/DetailCareers.svelte";
+	import LearnMore from "./ui/LearnMore.svelte";
+	import Footer from "./ui/Footer.svelte";
 </script>
 
 <div>
@@ -19,4 +21,12 @@
 
 <div class="mt-8">
 	<DetailCareers />
+</div>
+
+<div class="mt-8">
+	<LearnMore />
+</div>
+
+<div>
+	<Footer />
 </div>
