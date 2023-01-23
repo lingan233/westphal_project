@@ -22,13 +22,13 @@
     <div class="grid grid-cols-2 font-semibold">
         {#each data.slice(0, currentItems) as item, i}
             {#if item == 1}
-            <div class="m-2 relative rounded-lg overflow-hidden">
-                <div class="py-1 px-4 m-1 text-xs absolute top-0 rounded-full bg-drexel-light-blue text-white">Best Match</div>
+            <div class="m-2 relative rounded-lg overflow-hidden text-white">
+                <div class="py-1 px-4 m-1 text-xs absolute top-0 rounded-full bg-drexel-light-blue">Best Match</div>
                 <img src="https://via.placeholder.com/200x250" alt="Avatar" class="object-cover w-full h-full" />
                 <div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-gradient-to-b from-transparent to-black/50 leading-4 p-2">{itemNames[i]}</div>
             </div>
             {:else}
-            <div class="m-2 relative rounded-lg overflow-hidden">
+            <div class="m-2 relative rounded-lg overflow-hidden text-white">
                 <div class="py-1 px-4 m-1 text-xs absolute top-0 rounded-full outline bg-white outline-drexel-light-blue text-drexel-light-blue">No.{item}</div>
                 <img src="https://via.placeholder.com/200x250" alt="Avatar" class="object-cover w-full h-full" />
                 <div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-gradient-to-b from-transparent to-black/50 leading-4 p-2">{itemNames[i]}</div>
