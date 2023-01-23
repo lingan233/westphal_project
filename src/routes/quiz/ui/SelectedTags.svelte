@@ -11,7 +11,7 @@
 	$: tags = selected_tags;
 </script>
 
-<div class="relative h-32 rounded-3xl border-2 border-drexel-light-blue">
+<div class="relative h-32 sm:h-full rounded-3xl border-2 border-drexel-light-blue">
 	<h2 class="absolute top-0 left-4 -translate-y-1/2 bg-white p-1 px-2 text-drexel-dark-blue">
 		Interests Picked
 	</h2>
