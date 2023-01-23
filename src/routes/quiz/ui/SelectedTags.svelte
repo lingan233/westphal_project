@@ -6,7 +6,6 @@
 
 	function onTagClose(event) {
 		dispatch('onTagClose', event.detail);
-
 	}
 
 	$: tags = selected_tags;
