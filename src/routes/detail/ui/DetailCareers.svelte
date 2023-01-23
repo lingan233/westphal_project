@@ -25,7 +25,7 @@
 	<CareersJobTitle job_title="USER RESEARCHER" shadow_position="right" />
 	<CareersJobTitle job_title="IX DESIGNER" shadow_position="left" />
 </div>
-<div class="mt-10 flex overflow-x-auto overflow-y-hidden">
+<div class="mt-10 flex overflow-x-auto overflow-y-hidden p-5">
 	<Alumni bg_color="#C14C31" />
 	<Alumni bg_color="#C14C31" />
 	<Alumni bg_color="#C14C31" />
