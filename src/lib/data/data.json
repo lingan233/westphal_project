@@ -1,1044 +1,1349 @@
 {
-	"majors": [{
-		"id": "UXID",
-		"content": {
-			"name": "User Experience and Interaction Design (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Research", "Presentation", "Interface Design", "User Experience", "Web Development"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+	"majors": [
+		{
+			"id": "UXID",
+			"content": {
+				"name": "User Experience and Interaction Design (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": [
+					"Research",
+					"Presentation",
+					"Interface Design",
+					"User Experience",
+					"Web Development"
+				],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
 
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://wallpaper.dog/large/20359554.jpg",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://cdn.wallpapersafari.com/19/48/sDQWat.jpg",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://wallpaper.dog/large/20359554.jpg",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://cdn.wallpapersafari.com/19/48/sDQWat.jpg",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
 					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "SCRP",
+			"content": {
+				"name": "Screenwritting and Playwritting (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Creative Writting", "Storytelling"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "PROD",
+			"content": {
+				"name": "Product Design (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Engineering", "Hands-on", "Research", "Product Development"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "PHTO",
+			"content": {
+				"name": "Photography (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Photography", "Culture"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "MUSC",
+			"content": {
+				"name": "Music Industry (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Music Production", "Performing"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "INTR",
+			"content": {
+				"name": "Interior Design (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Decorating", "Presentation", "Material Design", "Space Planning"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "GMAP",
+			"content": {
+				"name": "Game Design and Development (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Game Development", "Game Design"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "FMTV",
+			"content": {
+				"name": "Film & Television (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Video Editing", "Storytelling", "Filmmaking"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "FASH",
+			"content": {
+				"name": "Fashion Design (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Fashion"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "EAM",
+			"content": {
+				"name": "Entertainment & Arts Management (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Business Development", "Business Management"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "VRIM",
+			"content": {
+				"name": "Digital Media and Virtual Production (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["AR/VR", "Motion Capture"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "DSMR",
+			"content": {
+				"name": "Design and Merchandising (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Merchandising", "Fashion"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "DANC",
+			"content": {
+				"name": "Dance (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Dance", "Performing"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "ARTH",
+			"content": {
+				"name": "Art History (BA, BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Creative Writting", "Research", "Culture", "History of Art"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "ARCH",
+			"content": {
+				"name": "Architecture (BS, BArch)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["Architecture", "Engineering", "Hands-on"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
+				}
+			}
+		},
+
+		{
+			"id": "ANIM",
+			"content": {
+				"name": "Animation and Visual Effects (BS)",
+				"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
+				"tag": ["3D Animation", "3D Modeling", "Visualization"],
+				"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+				"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
+
+				"section_a": {
+					"name": "Fundamentals",
+					"contents": [
+						{
+							"name": "UI Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
+						},
+						{
+							"name": "Web Development",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
+						},
+						{
+							"name": "UX Design",
+							"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
+							"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
+						}
+					]
+				},
+
+				"section_b": {
+					"name": "Co-op",
+					"content": {
+						"stat_1": { "name": "Employment Rate", "stat": "90%" },
+						"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
+						"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
+						"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
+					}
+				},
+
+				"section_c": {
+					"name": "Career",
+					"content": {
+						"stat_1": {
+							"stat": "99%",
+							"description": "Employed at a full-time job within one year of graduation"
+						},
+						"stat_2": {
+							"stat": "$78k",
+							"description": "Average salary within one year of graduation"
+						},
+						"job_titles": [
+							"UI DESIGNER",
+							"UX DESIGNER",
+							"WEB DEVELOPER",
+							"IX DESIGNER",
+							"USER RESEARCHER"
+						],
+						"alumni": [
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							},
+							{
+								"name": "Brendan Luu",
+								"job_title": "UX Designer",
+								"company": "Google",
+								"class": 2019
+							}
+						]
+					}
 				}
 			}
 		}
-	},
-
-	{
-		"id": "SCRP",
-		"content": {
-			"name": "Screenwritting and Playwritting (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Creative Writting", "Storytelling"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "PROD",
-		"content": {
-			"name": "Product Design (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Engineering", "Hands-on", "Research", "Product Development"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "PHTO",
-		"content": {
-			"name": "Photography (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Photography", "Culture"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-	
-	{
-		"id": "MUSC",
-		"content": {
-			"name": "Music Industry (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Music Production", "Performing"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "INTR",
-		"content" : {
-			"name": "Interior Design (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Decorating", "Presentation", "Material Design", "Space Planning"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "GMAP",
-		"content": {
-			"name": "Game Design and Development (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Game Development", "Game Design"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "FMTV",
-		"content": {
-			"name": "Film & Television (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Video Editing", "Storytelling", "Filmmaking"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "FASH",
-		"content": {
-			"name": "Fashion Design (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Fashion"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "EAM",
-		"content": {
-			"name": "Entertainment & Arts Management (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Business Development", "Business Management"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "VRIM",
-		"content": {
-			"name": "Digital Media and Virtual Production (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["AR/VR", "Motion Capture"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "DSMR",
-		"content": {
-			"name": "Design and Merchandising (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Merchandising", "Fashion"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "DANC",
-		"content": {
-			"name": "Dance (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Dance", "Performing"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "ARTH",
-		"content": {
-			"name": "Art History (BA, BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Creative Writting", "Research", "Culture", "History of Art"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-
-	{
-		"id": "ARCH",
-		"content": {
-			"name": "Architecture (BS, BArch)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["Architecture", "Engineering", "Hands-on"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	},
-	
-	{
-		"id": "ANIM",
-		"content": {
-			"name": "Animation and Visual Effects (BS)",
-			"description": "The User Experience and Interaction Design (UXID) degree gives you the tools to not only understand technology, but also the human principles underpinning it.",
-			"tag": ["3D Animation", "3D Modeling", "Visualization"],
-			"cover_img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-			"qr_code": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572663/Westphal%20Touchscreen/qr_code_r4xynj.png",
-
-			"section_a": {
-				"name": "Fundamentals",
-				"contents": [
-					{
-						"name": "UI Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the first year, you learn user interface (UI) design, which is the focus on the graphical look and feel of apps and websites. Color, spacing, and typography is key."
-					},
-					{
-						"name": "Web Development",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "In the second year, you learn the how to code the designs you create. HTML, CSS, JavaScript, are the core languages that allow you to build a competitive portfolio."
-					},
-					{
-						"name": "UX Design",
-						"img": "https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png",
-						"description": "Throughout the program, students conduct real-world research through interviews, card sorting exercises, competitive analysis of products, and surveys."
-					}
-			]},
-
-			"section_b": {
-				"name": "Co-op",
-				"content": {
-					"stat_1": { "name": "Employment Rate", "stat": "90%" },
-					"stat_2": { "name": "Medium Salary", "stat": "$20/hr" },
-					"companies": ["MICROSOFT", "VANGUARD", "SEPTA", "GOOGLE", "ORACLE"],
-					"description": "Students in UXID get 3 individual 6-month co-op cycles, which allows for a year and a half of working experience before graduation."
-				}
-				
-			},
-
-			"section_c": {
-				"name": "Career",
-				"content": {
-					"stat_1": {
-						"stat": "99%",
-						"description": "Employed at a full-time job within one year of graduation"
-					},
-					"stat_2": { "stat": "$78k", "description": "Average salary within one year of graduation" },
-					"job_titles": [
-						"UI DESIGNER",
-						"UX DESIGNER",
-						"WEB DEVELOPER",
-						"IX DESIGNER",
-						"USER RESEARCHER"
-					],
-					"alumni": [
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 },
-						{ "name": "Brendan Luu", "job_title": "UX Designer", "company": "Google", "class": 2019 }
-					]
-				}
-			}
-		}
-	}
-]
+	]
 }

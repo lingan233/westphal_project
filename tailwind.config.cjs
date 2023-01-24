@@ -22,12 +22,10 @@ module.exports = {
 				'drexel-light-green': '#B7BF10'
 			},
 			screens: {
-				'custom': '500px'
-    		}
+				custom: '500px'
+			}
 		}
 	},
-	plugins: [
-		require('flowbite/plugin')
-	],
-	darkMode: 'class',
+	plugins: [require('flowbite/plugin')],
+	darkMode: 'class'
 };
