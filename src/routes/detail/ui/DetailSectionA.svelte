@@ -54,7 +54,7 @@
 								/>
 							</svg>
 						</button>
-						<div class="px-2 font-semibold text-white">{i + 1} / 3</div>
+						<div class="px-2 font-semibold text-white">{i + 1} / {carousel_length}</div>
 						<button on:click={nextSlide}>
 							<svg
 								width="32"
