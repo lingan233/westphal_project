@@ -1,10 +1,13 @@
 import { error } from '@sveltejs/kit';
-import data from '../../../lib/data/data.json';
 
-export const load = ({ params }) => {
-	try {
-		return data.majors.find((major) => major.id.toLowerCase() === params.slug.toLowerCase());
-	} catch {
-		return error(404, 'Not found');
+/** @type {import('./$types').PageLoad} */
+export const load = () => {
+	if (params.slug === 'UXID') {
+		return {
+			title: 'User Experience and Interaction Design',
+			content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
+		};
 	}
+
+	throw error(404, 'Not found');
 };
