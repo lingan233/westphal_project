@@ -1,10 +1,10 @@
 <script>
-	export let major_title;
+	export let major_name;
 	export let major_description;
 </script>
 
 <h1 class="pb-2 text-2xl font-bold text-white">
-	{major_title}
+	{major_name}
 	<!-- User Experience and Interaction Design (BS) -->
 </h1>
 <p class="text-sm text-white">
