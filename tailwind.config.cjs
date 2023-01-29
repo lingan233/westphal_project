@@ -15,9 +15,12 @@ module.exports = {
 				'drexel-light-blue': '#006298',
 				'drexel-bright-blue': '#6CACE4',
 				'drexel-light-orange': '#FF8F1C',
-				'drexel-light-red': '#C14C31'
+				'drexel-light-red': '#C14C31',
+				'drexel-light-green': '#B7BF10'
+			},
+			screens: {
+				custom: '500px'
 			}
 		}
 	},
-	plugins: []
 };
