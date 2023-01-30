@@ -1,4 +1,5 @@
 <script>
+	import finger_click from '$lib/images/finger.png';
 </script>
 
 <a href="/quiz">
@@ -8,5 +9,5 @@
 	class="absolute top-1/2 left-1/2 flex -translate-x-1/2 -translate-y-1/2 bg-drexel-dark-blue p-2 text-white "
 >
 	<h1>Tap to Explore Westphal Majors</h1>
-	<!-- <img src={} alt="abc" /> -->
+	<img src={finger_click} alt="abc" />
 </div>

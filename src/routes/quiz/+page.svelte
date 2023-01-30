@@ -1,49 +1,22 @@
 <script>
-	import SelectedTags from './ui/SelectedTags.svelte';
-	import Header from './ui/Header.svelte';
-	import { generate_random_tags } from '$lib/functions/GenerateRandomTags';
-	import { get_all_tags } from '$lib/functions/GetAllTags';
-	import TagGeneration from './ui/TagGeneration.svelte';
-	import RerollButton from '$lib/components/RerollButton.svelte';
-	import { selected_tags, remaining_tags, displaying_tags } from './store';
-
-	let tags = get_all_tags();
-	$remaining_tags = tags;
-	$selected_tags = [];
-	$displaying_tags = [];
-
-
-	$displaying_tags = generate_random_tags(remaining_tags, 20);
-
-	function onReroll() {
-		$displaying_tags = generate_random_tags(remaining_tags, 20);
-	}
-
-	function onTagSelect(event) {
-		if (tags.includes(event.detail) && !$selected_tags.includes(event.detail)) {
-			$selected_tags = [...$selected_tags, event.detail];
-			$displaying_tags = $displaying_tags.filter((tag) => tag != event.detail);
-			
-			
-
-			$displaying_tags = [...$displaying_tags, generate_random_tags(remaining_tags, 1)];
-		}
-	}
-
-	function onTagClose(event) {
-		if (tags.includes(event.detail) && $selected_tags.includes(event.detail)) {
-			$selected_tags = $selected_tags.filter((tag) => tag != event.detail);
-		}
-	}
+	let tags = [
+		'Dance',
+		'Engineering',
+		'Architecture',
+		'Filmmaking',
+		'Research',
+		'Storytelling',
+		'History of Art'
+	];
 </script>
 
-<main class="grid h-screen grid-rows-[10vh_1fr_3rem] gap-8 p-5 py-16">
-	<Header />
-
-	<div class='grid grid-cols-[2fr_3fr] px-[5vw] gap-[5vw]'>
-		<SelectedTags on:onTagClose={onTagClose} selected_tags={$selected_tags} />
-		<TagGeneration on:onTagSelectBubble={onTagSelect} tags={$displaying_tags} />
-	</div>
-
-	<RerollButton on:onReroll={onReroll} />
-</main>
+<h1 class="m-2 p-8">Pike Your Interests</h1>
+<div class="m-2 rounded-2xl border-2 border-blue-600 p-8">
+	<h2>Interests Picked</h2>
+</div>
+<div>
+	{#each tags as tag}
+		<button class="m-1 rounded-full border-2 border-blue-600 py-1 px-3">{tag}</button>
+	{/each}
+</div>
+<a href="/result" class="float-right m-1 rounded-full bg-gray-200 py-1 px-3">View Result</a>
