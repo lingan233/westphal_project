@@ -1,5 +1,10 @@
 <script>
 	import ButtonNext from '$lib/components/ButtonNext.svelte';
+	export let selected_tags;
+	// const encoded = encodeURIComponent(JSON.stringify(selected_tags));
+	// console.log(selected_tags);
+		// console.log(JSON.parse(decodeURIComponent(encoded)));
+
 </script>
 
 <div class="flex items-start justify-between">
@@ -8,6 +13,6 @@
 		<p class="text-base font-light">Choose as many tags as you like!</p>
 	</div>
 	<div class='absolute right-0'>
-		<ButtonNext />
+		<ButtonNext linkUrl="/result?data={selected_tags}" />
 	</div>
 </div>

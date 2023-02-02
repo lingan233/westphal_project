@@ -28,6 +28,7 @@
 
 			$displaying_tags = [...$displaying_tags, generate_random_tags(remaining_tags, 1)];
 		}
+		console.log(event.detail);
 	}
 
 	function onTagClose(event) {
@@ -38,7 +39,7 @@
 </script>
 
 <main class="grid h-screen grid-rows-[10vh_1fr_3rem] gap-8 p-5 py-16">
-	<Header />
+	<Header selected_tags={$selected_tags} />
 
 	<div class='grid px-[5vw] gap-[5vw]'>
 		<SelectedTags on:onTagClose={onTagClose} selected_tags={$selected_tags} />
@@ -47,3 +48,4 @@
 
 	<RerollButton on:onReroll={onReroll} />
 </main>
+
