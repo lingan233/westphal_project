@@ -40,7 +40,7 @@
 <main class="grid h-screen grid-rows-[10vh_1fr_3rem] gap-8 p-5 py-16">
 	<Header />
 
-	<div class='grid grid-cols-[2fr_3fr] px-[5vw] gap-[5vw]'>
+	<div class='grid px-[5vw] gap-[5vw]'>
 		<SelectedTags on:onTagClose={onTagClose} selected_tags={$selected_tags} />
 		<TagGeneration on:onTagSelectBubble={onTagSelect} tags={$displaying_tags} />
 	</div>
