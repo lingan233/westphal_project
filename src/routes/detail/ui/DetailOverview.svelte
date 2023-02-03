@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="relative h-screen w-full bg-center"
+	class="relative h-screen w-full bg-center bg-cover"
 	style={`background-image: linear-gradient(to bottom, #00000080, #00000000, #000000CC), url('${section_data.content.cover_img}');`}
 >
 	<img

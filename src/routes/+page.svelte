@@ -3,7 +3,7 @@
 </script>
 
 <a href="/quiz">
-	<div style="background-image: url('https://res.cloudinary.com/drljdv2k2/image/upload/v1674572664/Westphal%20Touchscreen/img_ukrztb.png')" class=" h-[100vh] bg-center">
+	<div style="background-image: url('https://res.cloudinary.com/drljdv2k2/image/upload/v1675464469/Westphal%20Touchscreen/westphal_feature_static_i6wewj.jpg')" class=" h-[100vh] bg-center bg-cover">
 		<div
 			class="absolute top-[60%] right-0 flex bg-drexel-dark-blue py-2 px-4 text-white w-[85%] justify-around items-center"
 		>
