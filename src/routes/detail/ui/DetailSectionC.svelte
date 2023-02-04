@@ -38,6 +38,7 @@
 			job_title={alumnus.job_title}
 			company={alumnus.company}
 			year={alumnus.class}
+			img={alumnus.img}
 		/>
 	{/each}
 </div>
