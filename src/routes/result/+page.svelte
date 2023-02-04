@@ -47,7 +47,7 @@
 		<div class="flex max-h-full flex-wrap gap-2 overflow-scroll px-4 py-2 pt-4 align-top">
 			{#each tags as tag}
 				<button class="tags flex h-fit items-center justify-center gap-1 rounded-full border border-drexel-light-blue py-0.5 px-0.5 leading-4">
-					<p class="pl-1 text-drexel-dark-blue">{tag}</p>
+					<p class="p-1 text-drexel-dark-blue">{tag}</p>
 				</button>
 			{/each}
 		</div>
