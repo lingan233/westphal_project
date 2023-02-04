@@ -1,5 +1,5 @@
 <script>
-    import majors from '../../lib/data/data.json';
+    import data from '../../lib/data/data.json';
 	import { onMount } from "svelte";
 	let tags = [];
   	let currentMajor;
@@ -17,7 +17,7 @@
 	let allMajors = []
 	onMount(async () => {
 		const res = await Promise.resolve({ json: () => [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16] });
-		allMajors = await res.json();
+		allMajors = res.json();
 	});
   
     function sortMajors(majors) {
@@ -29,7 +29,7 @@
     }
 
     function getMajors() {
-      return sortMajors(majors.majors.filter(major => {
+      return sortMajors(data.majors.filter(major => {
         return major.content.tag.some(tag => tags.includes(tag));
       }));
     }
@@ -69,10 +69,18 @@
 				</div>
 			</a>
 		{/each}
+		{#each data.majors as major}
+			<a href="/detail/{major.id}">
+				<div class="m-2 relative rounded-lg overflow-hidden text-white">
+					<img src={major.content.cover_img} alt="Avatar" class="object-cover w-full aspect-[3/4]" />
+					<div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-gradient-to-b from-transparent to-black/50 leading-4 p-2">{major.content.name}</div>
+				</div>
+			</a>
+		{/each}
     </div>
-    <div class="flex justify-center">
+    <!-- <div class="flex justify-center">
         {#if currentMajor < tags.length}
-		<!-- need currentMajor = currentMajor + tags.length - currentMajor -->
+		need currentMajor = currentMajor + tags.length - currentMajor
         <button on:click={() => currentMajor = tags.length}
             id="loadmore"
             type="button"
@@ -80,5 +88,5 @@
             Show more
         </button>
         {/if}        
-    </div>
+    </div> -->
 </div>
