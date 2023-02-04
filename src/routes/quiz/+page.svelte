@@ -26,7 +26,7 @@
 			
 			
 
-			$displaying_tags = [...$displaying_tags, generate_random_tags(remaining_tags, 1)];
+			$displaying_tags = [...$displaying_tags, generate_random_tags(remaining_tags, 1)[0]];
 		}
 		console.log(event.detail);
 	}
