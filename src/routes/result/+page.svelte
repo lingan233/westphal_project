@@ -64,7 +64,7 @@
 					{:else}
 						<div class="py-1 px-4 m-1 text-xs absolute top-0 rounded-full outline bg-white outline-drexel-light-blue text-drexel-light-blue">No.{i+1}</div>
 					{/if}
-					<img src={major.content.cover_img} alt="Avatar" class="object-cover w-full h-48" />
+					<img src={major.content.cover_img} alt="Avatar" class="object-cover w-full aspect-[3/4]" />
 					<div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-gradient-to-b from-transparent to-black/50 leading-4 p-2">{major.content.name}</div>
 				</div>
 			</a>
